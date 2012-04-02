@@ -1,0 +1,12 @@
+kernel/drivers/video/fb.ko
+kernel/drivers/video/cfbfillrect.ko
+kernel/drivers/video/cfbcopyarea.ko
+kernel/drivers/video/cfbimgblt.ko
+kernel/drivers/video/output.ko
+kernel/drivers/video/backlight/lcd.ko
+kernel/drivers/video/backlight/platform_lcd.ko
+kernel/drivers/video/backlight/backlight.ko
+kernel/drivers/video/backlight/generic_bl.ko
+kernel/drivers/video/omap2/displays/panel-NT35510.ko
+kernel/drivers/video/omap2/dss/omapdss.ko
+kernel/drivers/video/omap2/omapfb/omapfb.ko

@@ -1,0 +1,3 @@
+kernel/drivers/input/touchscreen/atmel_touch_602240.ko
+kernel/drivers/input/touchscreen/atmel_touchscreen.ko
+kernel/drivers/input/touchscreen/atmel_touchscreen_i2c.ko

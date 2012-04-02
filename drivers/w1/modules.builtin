@@ -1,0 +1,3 @@
+kernel/drivers/w1/wire.ko
+kernel/drivers/w1/masters/omap_hdq.ko
+kernel/drivers/w1/slaves/w1_bq27000.ko

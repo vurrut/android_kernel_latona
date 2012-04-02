@@ -1,0 +1,11 @@
+vurrutKER for cm7/miui v3
+-Changes with vibrator,gps,...(cm7)
+-Governors(smartass v1 and v2,smothass,interactivex,...)
+-Shedulers (noop,cfq,bfq,deadline.vr.sio)
+-Add fifth step (5 opp)--_patch de Bill Varney omapzoom
+-Voltaje ajustement (undervolting)(thanks to xda_bam)
+-small adjustments
+-tuned a governors(in progress)
+-add more opps 
+-one opp low freq. (experimental)
+

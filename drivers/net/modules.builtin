@@ -1,0 +1,4 @@
+kernel/drivers/net/mii.ko
+kernel/drivers/net/tun.ko
+kernel/drivers/net/smsc911x.ko
+kernel/drivers/net/phy/libphy.ko

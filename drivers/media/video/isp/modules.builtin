@@ -1,0 +1,4 @@
+kernel/drivers/media/video/isp/omap_previewer.ko
+kernel/drivers/media/video/isp/omap_resizer.ko
+kernel/drivers/media/video/isp/omap_prev2resz.ko
+kernel/drivers/media/video/isp/isp-mod.ko

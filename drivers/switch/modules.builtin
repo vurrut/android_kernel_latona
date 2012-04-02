@@ -1,0 +1,4 @@
+kernel/drivers/switch/switch_class.ko
+kernel/drivers/switch/switch_gpio.ko
+kernel/drivers/switch/zeus_earkey.ko
+kernel/drivers/switch/switch_sio.ko

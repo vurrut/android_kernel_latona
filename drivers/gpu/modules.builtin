@@ -1,0 +1,4 @@
+kernel/drivers/gpu/pvr/pvr_common.ko
+kernel/drivers/gpu/pvr/sgx.ko
+kernel/drivers/gpu/pvr/omaplfb.ko
+kernel/drivers/gpu/pvr/pvr530.ko

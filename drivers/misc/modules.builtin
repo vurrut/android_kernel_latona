@@ -1,0 +1,2 @@
+kernel/drivers/misc/wl127x-rfkill.ko
+kernel/drivers/misc/level/level.ko

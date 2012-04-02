@@ -1,0 +1,11 @@
+kernel/sound/soundcore.ko
+kernel/sound/core/snd.ko
+kernel/sound/core/snd-timer.ko
+kernel/sound/core/snd-pcm.ko
+kernel/sound/core/snd-page-alloc.ko
+kernel/sound/soc/snd-soc-core.ko
+kernel/sound/soc/codecs/snd-soc-twl4030.ko
+kernel/sound/soc/codecs/snd-soc-max97000.ko
+kernel/sound/soc/omap/snd-soc-omap.ko
+kernel/sound/soc/omap/snd-soc-omap-mcbsp.ko
+kernel/sound/soc/omap/snd-soc-sdp3430.ko

@@ -1,0 +1,3 @@
+kernel/drivers/phone_svn/ipc_spi/ipc_spi.ko
+kernel/drivers/phone_svn/modemctl/modemctl.ko
+kernel/drivers/phone_svn/svnet/svnet.ko
