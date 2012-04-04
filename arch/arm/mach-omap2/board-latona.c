@@ -435,7 +435,7 @@ struct opp_frequencies {
 	unsigned long ena;
 };
 
-static struct opp_frequencies opp_freq_add_table[] __initdata = {
+static struct opp_frequencies opp_freq_add_table[] __initdata = { 
   {
 	.mpu = 120000000,
 	.iva = 120000000,
@@ -471,7 +471,12 @@ static struct opp_frequencies opp_freq_add_table[] __initdata = {
 	.iva =  900000000,
 	.ena = OMAP3630_CONTROL_FUSE_OPP1_5G_VDD1,
   }, 	
-  { 0, 0, 0, 0 ,0 ,0 ,0 },
+    {
+	.mpu = 1380000000,
+	.iva =  900000001,
+	.ena = OMAP3630_CONTROL_FUSE_OPP1_6G_VDD1,
+  },
+  { 0, 0, 0, 0 , 0 , 0 , 0 ,0 },
 };
 
 static void __init omap_board_init(void)
