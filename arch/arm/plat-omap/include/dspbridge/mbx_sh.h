@@ -177,6 +177,12 @@
 #define MBX_PM_OPP2 1
 #define MBX_PM_OPP3 2
 #define MBX_PM_OPP4 3
+#define MBX_PM_OPP5 4
+#define MBX_PM_OPP6 5
+#define MBX_PM_OPP7 6
+#define MBX_PM_OPP8 7
+#define MBX_PM_OPP9 8
+#define MBX_PM_OPP10 9
 #define MBX_OLDOPP_EXTRACT(OPPMSG) ((0x00F0 & (OPPMSG)) >> 4)
 #define MBX_NEWOPP_EXTRACT(OPPMSG) (0x000F & (OPPMSG))
 #define MBX_PREVOPP_EXTRACT(OPPMSG) ((0x00F0 & (OPPMSG)) >> 4)

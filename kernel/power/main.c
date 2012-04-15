@@ -20,15 +20,28 @@
 #ifdef USE_OMAP_DVFS_LOCK
 #include <plat/omap-pm.h>
 // OMAP3630 OPP Clock Frequency Table
-#define VDD1_OPP4_FREQ         S1000M
-#define VDD1_OPP3_FREQ         S800M
-#define VDD1_OPP2_FREQ         S600M
-#define VDD1_OPP1_FREQ         S300M
 
+#define VDD1_OPP10_FREQ         S1400M
+#define VDD1_OPP9_FREQ         S1350M
+#define VDD1_OPP8_FREQ         S1300M
+#define VDD1_OPP7_FREQ         S1200M
+#define VDD1_OPP6_FREQ         S1100M
+#define VDD1_OPP5_FREQ         S1000M
+#define VDD1_OPP4_FREQ         S800M
+#define VDD1_OPP3_FREQ         S600M
+#define VDD1_OPP2_FREQ         S300M
+#define VDD1_OPP1_FREQ         S120M
+
+#define S1400M  1400000000
+#define S1350M  1350000000
+#define S1300M  1300000000
+#define S1200M  1200000000
+#define S1100M  1100000000
 #define S1000M  1000000000
 #define S800M   800000000
 #define S600M   600000000
 #define S300M   300000000
+#define S120M   120000000
 
 static void do_dvfsunlock_timer(struct work_struct *work);
 static DEFINE_MUTEX (dvfslock_ctrl_mutex);
@@ -218,7 +231,7 @@ static ssize_t dvfslock_ctrl(const char *buf, size_t count)
 	if(dlevel) dlevel = 1;
 	
 	printk("+++++DBG dvfs lock level=%d, time=%d, scanVal=%08x\n",dlevel,dtime_msec, gdDvfsctrl);
-	omap_pm_set_min_mpu_freq(&dvfs_ctrl_device, VDD1_OPP4_FREQ);
+	omap_pm_set_min_mpu_freq(&dvfs_ctrl_device, VDD1_OPP10_FREQ);
 	//s5pc110_lock_dvfs_high_level(DVFS_LOCK_TOKEN_6, dlevel);
 	dvfsctrl_locked=1;
 
