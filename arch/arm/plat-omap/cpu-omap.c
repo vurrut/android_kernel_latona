@@ -227,7 +227,7 @@ static int omap_cpu_init(struct cpufreq_policy *policy)
 	policy->cur = omap_getspeed(policy->cpu);
 
 	/* FIXME: what's the actual transition time? */
-	policy->cpuinfo.transition_latency = 300 * 1000;
+	policy->cpuinfo.transition_latency = 30 * 1000;
 
 #ifdef CONFIG_SMP
 	/*

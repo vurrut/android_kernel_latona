@@ -372,7 +372,7 @@ static struct omap_volt_data omap36xx_vdd1_volt_data[] = {
 	{.volt_nominal = 1380000, .sr_oppmargin = 62500, .sr_errminlimit = 0xFA, .vp_errgain = 0x27, .abb_type = FAST_OPP},/*opp6 */
 	{.volt_nominal = 1455000, .sr_oppmargin = 62500, .sr_errminlimit = 0xFA, .vp_errgain = 0x27, .abb_type = FAST_OPP},/*opp7 */
 	{.volt_nominal = 1485000, .sr_oppmargin = 62500, .sr_errminlimit = 0xFA, .vp_errgain = 0x27, .abb_type = FAST_OPP},/*opp8 */
-        {.volt_nominal = 1570000, .sr_oppmargin = 62500, .sr_errminlimit = 0xFA, .vp_errgain = 0x27, .abb_type = FAST_OPP},/*opp9 */
+        {.volt_nominal = 1500000, .sr_oppmargin = 62500, .sr_errminlimit = 0xFA, .vp_errgain = 0x27, .abb_type = FAST_OPP},/*opp9 */
 };
 
 /* VDD2 */
@@ -385,7 +385,7 @@ static struct omap_volt_data omap34xx_vdd2_volt_data[] = {
 static struct omap_volt_data omap36xx_vdd2_volt_data[] = {
 	{.volt_nominal = 940000, .sr_oppmargin = 37500,  .sr_errminlimit = 0xF4, .vp_errgain = 0x0C},
 	{.volt_nominal = 1162500, .sr_oppmargin = 37500, .sr_errminlimit = 0xF9, .vp_errgain = 0x16},
-        {.volt_nominal = 1185000, .sr_oppmargin = 37500, .sr_errminlimit = 0xF9, .vp_errgain = 0x18},
+        {.volt_nominal = 1185000, .sr_oppmargin = 37500, .sr_errminlimit = 0xF9, .vp_errgain = 0x16},
 
 //	{.volt_nominal = 930000, .sr_oppmargin = 0,  .sr_errminlimit = 0xF4, .vp_errgain = 0x0C},
 //	{.volt_nominal = 1162500, .sr_oppmargin = 0, .sr_errminlimit = 0xF9, .vp_errgain = 0x16},
