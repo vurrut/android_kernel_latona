@@ -438,7 +438,7 @@ struct opp_frequencies {
 static struct opp_frequencies opp_freq_add_table[] __initdata = { 
   {
 	.mpu = 120000000,
-	.iva = 120000000,
+	.iva = 200000000,
 	.ena = OMAP3630_CONTROL_FUSE_OPP1_LOW,
   },
   {
@@ -452,31 +452,31 @@ static struct opp_frequencies opp_freq_add_table[] __initdata = {
 	.ena = OMAP3630_CONTROL_FUSE_OPP1G_VDD1,
   },
   {
-	.mpu = 1000000000,
-	.iva =  860000000,
+	.mpu = 1100000000,
+	.iva =  810000000,
 	.ena = OMAP3630_CONTROL_FUSE_OPP1_2G_VDD1,
   },
   {
 	.mpu = 1200000000,
-	.iva =  870000000,
+	.iva =  820000000,
 	.ena = OMAP3630_CONTROL_FUSE_OPP1_3G_VDD1,
   },
    {
 	.mpu = 1300000000,
-	.iva =  880000000,
+	.iva =  830000000,
 	.ena = OMAP3630_CONTROL_FUSE_OPP1_4G_VDD1,
   },
   {
 	.mpu = 1350000000,
-	.iva =  890000000,
+	.iva =  840000000,
 	.ena = OMAP3630_CONTROL_FUSE_OPP1_5G_VDD1,
   }, 	
     {
-	.mpu = 1400000000,
-	.iva =  900000000,
+	.mpu = 1370000000,
+	.iva =  850000000,
 	.ena = OMAP3630_CONTROL_FUSE_OPP1_6G_VDD1,
   },
-  { 0, 0, 0, 0 , 0 , 0 , 0 ,0 },
+  { 0, 0, 0, 0 , 0 , 0 , 0 , 0 },
 };
 
 static void __init omap_board_init(void)
